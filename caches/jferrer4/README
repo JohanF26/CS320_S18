@@ -1,0 +1,23 @@
+Johan Ferreras
+jferrer4
+B00577416
+
+What Works: Everything but the Hot-Cold approximation works.
+However, the output for it is not too far off from the actual accuracy
+provided in the sample output files.
+
+Extra-Credit: I have done the extra credit.
+Testing: take out the "//" from the print statement in line 142 then compile and
+run the program. This will print out the results of my function to the command
+line.
+
+What have I done: One thing I learned in CS350 is that sometimes the way to make
+an algorithm better than other two algorithms is by combining the best
+characteristics of both. So what I did was combine both the LRU replacement and
+the Next-Line prefetcher to take advantage of the best characteristics of each.
+
+Why it works:
+The reason why this works is because LRU replacement already has one of the best
+hit rates since it has to look through the whole cache, however, by prefetching
+the next line now we have an even greater accuracy since the following line is
+very likely to be accessed next.
